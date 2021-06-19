@@ -1,0 +1,82 @@
+{
+   "objectives": [
+    {
+      "type": "min-max",
+      "value": "completion_time"
+    }
+  ] 
+   "vehicle_types": [
+    {
+      "type_id": "3.5t",
+      "profile": "small_truck",
+      "network_data_provider": "tomtom",
+      "consider_traffic": true
+    }
+    {
+      "type_id": "cargo-bike",
+      "profile": "bike"
+    }
+  ] 
+  "vehicles": [
+    {
+      "vehicle_id": "3.5t",
+      "type_id": "3.5t",
+      "start_address": {
+        "location_id": "London",
+        "lon": -0.042107,
+        "lat": 51.532004
+      }
+    }
+    {
+      "vehicle_id": "cargo-bike",
+      "type_id": "cargo-bike",
+    "start_address": {
+        "location_id": "London",
+        "lon": -0.042107,
+        "lat": 51.532004
+     }
+    }
+  ]
+  "services": [
+    {
+      "id": "Drop4",
+      "name": "visit_Drop4",
+      "address": {
+        "location_id": "Drop4",
+        "lon": -0.083866,
+        "lat": 51.560944
+      }
+      "duration":600
+    }
+    {
+      "id": "Drop1",
+      "name": "visit_Drop1",
+      "address": {
+        "location_id": "Drop1",
+        "lon": -0.055079,
+        "lat": 51.564487
+      }
+      "duration":600
+    }
+    {
+      "id": "Drop2",
+      "name": "visit_Drop2",
+      "address": {
+        "location_id": "Drop2",
+        "lon": -0.069341,
+        "lat": 51.554528
+      }
+      "duration":600
+    }
+    {
+      "id": "Drop3",
+      "name": "visit_Drop3",
+      "address": {
+        "location_id": "Drop3",
+        "lon": -0.07849,
+        "lat": 51.554535
+      }
+      "duration":600
+    }
+  ]
+}
